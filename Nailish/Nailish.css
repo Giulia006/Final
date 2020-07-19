@@ -1,36 +1,78 @@
 h1 {
-    color: red;
+    color:teal;
     text-align: center;
 }
+
 h3 {
     color:rgb(192, 133, 65);
 }
+
 h4 {
     color: orangered;
     margin-top: 2.5em;
     text-align: center;
 }
+
 p {
     color:rgb(192, 133, 65);
     text-align:center;
 }
+
 ul {
     color:rgb(145, 27, 27);
     list-style-type: square;
 }
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+
   a{
       text-decoration: none;
       color: peru;
   }
+
   a:hover{
       text-decoration: underline;
       color:white;
   }
+
+  #roz {
+      color: lightcoral;
+  }
+  #deer{
+      color: darksalmon;
+  }
+  #gri{
+      color: grey;
+  }
+  #val{
+      color:cadetblue;
+  }
+  #skin{
+      color:coral;
+  }
+  #aqua {
+      color:aqua;
+  }
+  #red {
+      color: red;
+  }
+  #leo {
+      color:chocolate;
+  }
+  #marble {
+      color:lightsteelblue;
+  }
+  #forest{
+      color:darkolivegreen;
+  }
+  #robo {
+      color:darkslategrey;
+  }
+
   body {
     background-image: url("1.jpg");
    }
