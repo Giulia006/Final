@@ -1,5 +1,5 @@
 h1 {
-    color:teal;
+    color:rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -18,8 +18,8 @@ p {
     text-align:center;
 }
 
-ul {
-    color:rgb(145, 27, 27);
+#lista {
+    color:rgb(0, 0, 0);
     list-style-type: square;
 }
 
@@ -29,14 +29,36 @@ img {
     margin-right: auto;
   }
 
-  a{
-      text-decoration: none;
-      color: peru;
+  header {
+    margin: 0.2em 0.5em;
+    height: 2em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
+    
+    a{
+      color: burlywood;
+      text-decoration: none;
+      margin: 0.2em 0.5em;
+      height: 2em;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        
+     }
 
   a:hover{
       text-decoration: underline;
       color:white;
+
   }
 
   #roz {
@@ -74,7 +96,7 @@ img {
   }
 
   body {
-    background-image: url("1a.jpg");
+    background-color: rgb(183, 233, 227);
     background-repeat: no-repeat;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   }
+  }
