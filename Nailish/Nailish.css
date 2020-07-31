@@ -96,7 +96,8 @@ img {
   }
 
   body {
-    background-color: rgb(183, 233, 227);
-    background-repeat: no-repeat;
+    background-image: url(nail.png);
+    background-repeat: none;
+    background-size: contain;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
