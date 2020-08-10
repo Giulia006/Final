@@ -22,7 +22,7 @@ p {
 }
 
 #lista {
-    color:rgb(52, 116, 73);
+    color:rgb(4, 34, 13);
     list-style-type: square;
     text-align: center;
 }
@@ -37,17 +37,9 @@ img {
     transition-timing-function: ease-in-out;
   }
 
-  img:hover{
-      transform: translate(5em,6em) scale(1.5) rotate(360deg);
-      background-color: lightblue;
-      opacity:0.9;
-      border-radius: 20px;
-
-  }
-
   header {
     height: 3em;
-    display:flex;
+    display:flex ;
     justify-content: center;
     align-items: center;
   }
