@@ -6,7 +6,7 @@ h1 {
 
 h3 {
     color: black;
-    font-size: 13px;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -34,6 +34,9 @@ p {
     display:flex ;
     justify-content: center;
     align-items: center;
+    background-color: rgb(81, 126, 85);
+    background-size: auto;
+    opacity: 0.8;
   }
     
     a{
@@ -51,7 +54,6 @@ p {
     ul{
         list-style-type: none;
         display: flex;
-        
      }
 
   a:hover{
@@ -98,13 +100,21 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    transform-origin: center center;
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
+    transition-timing-function: linear;
+  }
+
+  img:hover{
+      transform: scale(3);
   }
 
   body {
       background-image: url(pexels-kelly-lacy-2563742.jpg);
       background-size: cover;
       height: 100vh;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: Arial, Helvetica, sans-serif;
       animation-name: Animatie;
       animation-duration: 100s;
       animation-timing-function: linear;
@@ -115,7 +125,6 @@ p {
   @keyframes Animatie {
     from {
         background-size: cover;
-        height: 100vh;
     }
     to{
         background-position: center center, 75% 70%, 38% 25%, -1024px 0%;

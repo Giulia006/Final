@@ -1,5 +1,5 @@
 a{
-    color: burlywood;
+    color: black;
     text-decoration: none;
     margin: 0.2em 0.5em;
     height: 2em;
@@ -18,19 +18,74 @@ ul{
 
 a:hover{
     text-decoration: underline;
-    color:white;}
+    color: green;}
 
-    header {
+
+
+header {
         height: 3em;
         display:flex ;
         justify-content: center;
         align-items: center;
+        background-color: rgb(81, 126, 85);
+        background-size: auto;
+        opacity: 0.8;
       }
 
-body {
-    background-image: url(pexels-kelly-lacy-2563742.jpg);
-    background-size: cover;
-    
-    height: 100vh;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   .nume {
+        display: inline-block;
+        margin-left: 49em;
+      }
+
+#preturi{
+  margin-top: 2em;
+  margin-left: 4em;
 }
+h4{
+  margin-top: 2em;
+  margin-left: 8em;
+}
+
+p{
+  margin-top: 3em;
+  text-align: center;
+  font-size: 18px;
+  background-color:rgb(235, 229, 229);
+  opacity: 0.7;
+}
+
+h3{
+  margin-left: 63em;
+}
+
+img{
+  margin-left: 74em;
+}
+
+#fb{
+  margin-left: 74.7em;
+}
+h2{
+  margin-top: 0.2em;
+}
+
+ body {
+        background-image: url(pexels-kelly-lacy-2563742.jpg);
+        background-size: cover;
+        height: 100vh;
+        animation-name: Animatie;
+        animation-duration: 100s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-fill-mode: both;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    @keyframes Animatie {
+      from {
+          background-size: cover;
+      }
+      to{
+          background-position: center center, 75% 70%, 38% 25%, -1024px 0%;
+      }
+    }
