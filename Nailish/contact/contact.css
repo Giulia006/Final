@@ -34,20 +34,29 @@ header {
 
    .nume {
         display: inline-block;
-        margin-left: 49em;
+        margin-left: 47.1em;
       }
 
 #preturi{
-  margin-top: 2em;
-  margin-left: 4em;
+  margin-top: 1em;
+  margin-left: 1em;
 }
+
+div {
+  width: 250px;
+  border: 2px solid green;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 25px;
+}
+
 h4{
-  margin-top: 2em;
-  margin-left: 8em;
+  margin-top: 1em;
+  margin-left: 3em;
 }
 
 p{
-  margin-top: 3em;
+  margin-top: 1em;
   text-align: center;
   font-size: 18px;
   background-color:rgb(235, 229, 229);
@@ -55,15 +64,15 @@ p{
 }
 
 h3{
-  margin-left: 63em;
+  margin-left: 61.2em;
 }
 
 img{
-  margin-left: 74em;
+  margin-left: 72em;
 }
 
 #fb{
-  margin-left: 74.7em;
+  margin-left: 72.8em;
 }
 h2{
   margin-top: 0.2em;
