@@ -21,30 +21,50 @@ h4 {
     text-shadow: 2px 2px black;
 }
 
-#logo {
-    width: 500px;
-    transform: none;
-    margin-inline-start: -12em;
-    margin-top: -11em;
-    margin-bottom: -20em;
-}
-
 p {
     color: black;
     text-align:center;
     
 }
 
-#lista {
+#logo {
+    width:500px;
+    transform: none;
+    margin-inline-start: -12em;
+    margin-top: -11em;
+    margin-bottom: -20em;
+}
+
+#lista{
     color:rgb(4, 34, 13);
     list-style-type: square;
     text-align: end;
     margin-bottom: -16em;
 }
 
+#pozaPr{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:500px;
+}
 
 
-  header {
+@media only screen and (max-width: 768px) {
+
+#lista {
+    display:none;
+  } 
+
+  #pozaPr{
+    display:none;
+}
+#produse{
+    display: none;
+}
+}
+
+header {
     height: 3em;
     display:flex ;
     justify-content: center;
@@ -181,7 +201,7 @@ h2{
     text-shadow: none;
     font-size: 15px;
 }
-#pozaPr, #ig, #fb{
+#ig, #fb{
     display: block;
     margin-left: auto;
     margin-right: auto;
