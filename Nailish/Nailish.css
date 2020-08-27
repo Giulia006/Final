@@ -14,11 +14,19 @@ h3 {
 }
 
 h4 {
-    color: orangered;
+    color: black;
     margin-top: 2.5em;
     text-align: center;
     font-size: 25px;
     text-shadow: 2px 2px black;
+}
+
+#logo {
+    width: 500px;
+    transform: none;
+    margin-inline-start: -12em;
+    margin-top: -11em;
+    margin-bottom: -20em;
 }
 
 p {
@@ -30,7 +38,8 @@ p {
 #lista {
     color:rgb(4, 34, 13);
     list-style-type: square;
-    text-align: center;
+    text-align: end;
+    margin-bottom: -16em;
 }
 
 
@@ -102,7 +111,7 @@ p {
       color:darkslategrey;
   }
 
-  img {
+  .im {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -113,9 +122,10 @@ p {
     border-radius: 8px;
   }
 
-  img:hover{
+  .im:hover{
       transform: scale(3);
   }
+
 
   body {
       background-image: url(pexels-kelly-lacy-2563742.jpg);
@@ -137,3 +147,42 @@ p {
         background-position: center center, 75% 70%, 38% 25%, -1024px 0%;
     }
   }
+
+.nume {
+    text-align: end;
+}
+
+#preturi{
+    margin-top: 1em;
+    margin-left: 1em;
+    }
+
+div {
+width: 250px;
+border: 2px solid green;
+padding: 10px;
+margin: 10px;
+border-radius: 25px;
+}
+
+#contact{
+    margin-top: 1em;
+    text-align: center;
+    font-size: 18px;
+    background-color:rgb(235, 229, 229);
+    opacity: 0.7;
+  }
+
+h2{
+    margin-top: 0.2em;
+  }
+
+.md{
+    text-shadow: none;
+    font-size: 15px;
+}
+#pozaPr, #ig, #fb{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
