@@ -56,7 +56,7 @@ p {
     display:none;
   } 
 
-  #pozaPr{
+#pozaPr{
     display:none;
 }
 #produse{
@@ -72,9 +72,9 @@ header {
     background-color: rgb(81, 126, 85);
     background-size: auto;
     opacity: 0.8;
-  }
+}
     
-    a{
+a {
       color: black;
       text-decoration: none;
       margin: 0.2em 0.5em;
@@ -82,20 +82,18 @@ header {
       display:flex;
       justify-content: center;
       align-items: center;
+}
 
-    }
-
-
-    ul{
+ul {
         list-style-type: none;
         display: flex;
-     }
+}
 
-  a:hover{
+a:hover {
       text-decoration: underline;
       color: green;
 
-  }
+}
 
   #roz {
       color: lightcoral;
@@ -131,7 +129,7 @@ header {
       color:darkslategrey;
   }
 
-  .im {
+.im {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -140,14 +138,15 @@ header {
     transition-delay: 0.3s;
     transition-timing-function: linear;
     border-radius: 8px;
-  }
+}
 
-  .im:hover{
+.im:hover{
       transform: scale(3);
-  }
+}
 
 
-  body {
+
+body {
       background-image: url(pexels-kelly-lacy-2563742.jpg);
       background-size: cover;
       height: 100vh;
@@ -157,7 +156,7 @@ header {
       animation-timing-function: linear;
       animation-iteration-count: infinite;
       animation-fill-mode: both;
-  }
+}
   
   @keyframes Animatie {
     from {
@@ -172,10 +171,10 @@ header {
     text-align: end;
 }
 
-#preturi{
+#preturi {
     margin-top: 1em;
     margin-left: 1em;
-    }
+}
 
 div {
 width: 250px;
@@ -185,19 +184,19 @@ margin: 10px;
 border-radius: 25px;
 }
 
-#contact{
+#contact {
     margin-top: 1em;
     text-align: center;
     font-size: 18px;
     background-color:rgb(235, 229, 229);
     opacity: 0.7;
-  }
+}
 
-h2{
+h2 {
     margin-top: 0.2em;
-  }
+}
 
-.md{
+.md {
     text-shadow: none;
     font-size: 15px;
 }
