@@ -1,5 +1,5 @@
 h1 {
-    color: rgb(39, 107, 45);
+    color: rgb(223, 215, 104);
     text-align: center;
     font-family: courier new;
     font-size: 40px;
@@ -19,6 +19,7 @@ h4 {
     text-align: center;
     font-size: 25px;
     text-shadow: 2px 2px black;
+    
 }
 
 p {
@@ -30,16 +31,15 @@ p {
 #logo {
     width:500px;
     transform: none;
-    margin-inline-start: -12em;
-    margin-top: -11em;
-    margin-bottom: -20em;
+    margin-inline-start: -13em;
+    margin-top: -15em;
+    margin-bottom: -19em;
 }
 
 #lista{
-    color:rgb(4, 34, 13);
+    color:rgb(79, 83, 16);
     list-style-type: square;
-    text-align: end;
-    margin-bottom: -16em;
+    text-align: center;
 }
 
 #pozaPr{
@@ -47,6 +47,12 @@ p {
     margin-left: auto;
     margin-right: auto;
     width:500px;
+    border: 2px solid rgb(193, 218, 85);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    margin-left: 24em;
+    margin-right: 32em;
 }
 
 
@@ -69,7 +75,7 @@ header {
     display:flex ;
     justify-content: center;
     align-items: center;
-    background-color: rgb(81, 126, 85);
+    background-color: rgb(243, 240, 240);
     background-size: auto;
     opacity: 0.8;
 }
@@ -91,7 +97,7 @@ ul {
 
 a:hover {
       text-decoration: underline;
-      color: green;
+      color: rgb(192, 212, 77);
 
 }
 
@@ -137,27 +143,28 @@ a:hover {
     transition-duration: 0.5s;
     transition-delay: 0.3s;
     transition-timing-function: linear;
-    border-radius: 8px;
+    border-radius: 100px;
+    width: 16%;
+    height: 32%;
 }
 
 .im:hover{
       transform: scale(3);
 }
 
-
-
 body {
-      background-image: url(pexels-kelly-lacy-2563742.jpg);
+      background-image: url(polish.jpg);
       background-size: cover;
       height: 100vh;
       font-family: Arial, Helvetica, sans-serif;
       animation-name: Animatie;
       animation-duration: 100s;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
-      animation-fill-mode: both;
+      /* animation-timing-function: linear; */
+      /* animation-iteration-count: infinite; */
+      /* animation-fill-mode: both; */
 }
-  
+
+
   @keyframes Animatie {
     from {
         background-size: cover;
@@ -172,16 +179,17 @@ body {
 }
 
 #preturi {
-    margin-top: 1em;
-    margin-left: 1em;
+    text-align: center;
 }
 
 div {
-width: 250px;
-border: 2px solid green;
+
+border: 2px solid rgb(193, 218, 85);
 padding: 10px;
 margin: 10px;
 border-radius: 25px;
+margin-left: 32em;
+margin-right: 32em;
 }
 
 #contact {
@@ -199,6 +207,7 @@ h2 {
 .md {
     text-shadow: none;
     font-size: 15px;
+    align-items: center;
 }
 #ig, #fb{
     display: block;
