@@ -29,11 +29,12 @@ p {
 }
 
 #logo {
-    width:500px;
+    width:200px;
     transform: none;
-    margin-inline-start: -13em;
-    margin-top: -15em;
-    margin-bottom: -19em;
+    margin-inline-start: -5em;
+    margin-top: -16em;
+    margin-bottom: -4.5em;
+    position: relative;
 }
 
 #lista{
